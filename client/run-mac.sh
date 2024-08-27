@@ -7,6 +7,7 @@ if ! [ -x "$(command -v inlets)" ]; then
   exit 1
 fi
 
+
 inlets client \
  --remote=$REMOTE \
  --upstream=$UPSTREAM \
